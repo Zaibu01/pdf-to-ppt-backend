@@ -8,7 +8,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(cors({
-  origin: "*"
+  origin: "https://www.allroundtool.online/"
 }));
 
 const upload = multer({ dest: "uploads/" });
